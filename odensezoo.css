@@ -1,0 +1,825 @@
+* {
+   
+    margin: 0px;
+    padding: 0px;
+}
+ 
+body {
+    font-family: "pt sans", sans-serif;
+    color: #ffffff;
+    background-color: #BFBCA9;
+}
+ 
+/*navigationsbar*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #A03431;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+   
+}
+ 
+li.tab {
+    float: right;
+    margin-right:25px;
+   
+}
+ 
+ li.tab a {
+    display: block;
+    color: white;
+    padding: 32px 34px;
+    text-decoration: none;
+}
+ 
+li.tab a:hover {
+    color: #ffffff;
+    background-color: #902E2B;
+}
+ 
+li.navlogo {
+    float: left;
+    margin-left:5%;
+}
+ 
+ 
+#logo{
+    float: left;
+    width: 120px;
+    margin-left: 80px;
+    margin-top: 6%;
+}
+ 
+/*header*/
+header {
+    background-color: #BFBCA9;
+    font-size: 35px;
+    color: white;
+    height: 738px;
+}
+ 
+.zoo{
+    margin-left: 152px;
+    font-style: italic;
+    color: #A03431;
+}
+ 
+ 
+ 
+/*main*/
+#main{
+    background-color: #BFBCA9;
+    text-align: ;
+    color: white;
+    height: 1600px;
+    font-size: 24px;
+}
+ 
+.kasse1{
+    background-color: #DBD9CD;
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    margin-left: 152px;
+    
+}
+
+.billet{
+    font-size: 15px;
+    color: #868373;
+    text-align: center;
+    width: 255px;
+    margin-left: 152px;
+    margin-top: -50px;
+}
+
+.billet-billede{
+    margin-top: 60px;
+    width: 110px;
+    height: 110px;
+}
+
+.kasse2{
+    background-color: #DBD9CD;
+    text-align: center;
+    width: 255px;
+    height: 250px;
+    margin-left: 445px;
+    margin-top: -219px;
+}
+
+
+.opentider{
+    font-size: 15px;
+    color: #868373;
+    text-align: center;
+    width: 255px;
+    margin-left: 445px;
+    margin-top: -50px;
+}
+
+.open-billede{
+    margin-top: 60px;
+    width: 100px;
+    height: 100px;
+}
+
+.kasse3{
+    background-color: #DBD9CD;
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    margin-left: 745px;
+    margin-top: -219px
+    
+}
+
+.opentider-billet{
+    margin-left: 445px;
+    width: 70px;
+    height: 70px;
+}
+
+
+.pratiske{
+    font-size: 15px;
+    color: #868373;
+    text-align: center;
+    width: 255px;
+    margin-left: 745px;
+    margin-top: -50px;
+}
+
+.pratisk-billede{
+    width: 100px;
+    height: 110px;
+    margin-top: 65px;
+}
+
+.kasse4{
+    background-color: #DBD9CD;
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    margin-left: 1040px;
+    margin-top: -219px;
+}
+
+.oplevelser{
+    font-size: 15px;
+    color: #868373;
+    text-align: center;
+    width: 255px;
+    margin-left: 1040px;
+    margin-top: -50px;
+}
+
+.oplevelse-billede{
+    width: 120px;
+    height: 100px;
+    margin-top: 65px;
+}
+ 
+.dagensprogram{
+    margin-left: 152px;
+}
+ 
+
+.open{
+    margin-left: 302px;
+    margin-right: 152px;
+    width: 985px;
+    height: 118px;
+    background-color: #DBD9CD;
+    
+}
+  
+.open p{
+    padding-left: 40px;
+    padding-top: 35px;
+    font-size: 18px;
+    color: #000000;
+    font-weight: 900;
+}
+
+.open h6{
+    font-size: 22px;
+    padding-left: 40px;
+    color: #000000;
+}
+
+.billede1{
+    margin-left: 152px;
+    margin-top:-118px;
+    width: 150px;
+    height: 118px;
+}
+
+.open-zoo{
+    width: 150px;
+    height: 118px;
+}
+
+
+ 
+.solove{
+    margin-left: 302px;
+    margin-right: 152px;
+     margin-top: 10px;
+    width: 985px;
+    height: 118px;
+    background-color: #DBD9CD;
+}
+
+.solove p{
+    padding-left: 40px;
+    padding-top: 35px;
+    font-size: 18px;
+    color: #000000;
+    font-weight: 900;
+}
+
+.solove h6{
+    font-size: 22px;
+    padding-left: 40px;
+    color: #000000;
+}
+
+.billede2{
+    margin-left: 152px;
+    margin-top:-118px;
+    width: 150px;
+    height: 118px;
+}
+
+.solove-billede{
+    width: 150px;
+    height: 118px;
+}
+
+.lion-trian{
+    margin-left: 302px;
+    margin-right: 152px;
+     margin-top: 10px;
+    width: 985px;
+    height: 118px;
+    background-color: #DBD9CD;
+}
+
+.lion-trian p{
+    padding-left: 40px;
+    padding-top: 35px;
+    font-size: 18px;
+    color: #000000;
+    font-weight: 900;
+}
+
+.lion-trian h6{
+    font-size: 22px;
+    padding-left: 40px;
+    color: #000000;
+}
+
+.billede3{
+    margin-left: 152px;
+    margin-top: -118px;
+    width: 150px;
+    height: 118px;
+}
+
+.lion-billede{
+    width: 150px;
+    height: 118px;
+}
+
+.cham{
+    margin-left: 302px;
+    margin-right: 152px;
+    margin-top: 10px;
+    width: 985px;
+    height: 118px;
+    background-color: #DBD9CD;
+}
+
+.cham p{
+    padding-left: 40px;
+    padding-top: 35px;
+    font-size: 18px;
+    color: #000000;
+    font-weight: 900;
+}
+
+.cham h6{
+    font-size: 22px;
+    padding-left: 40px;
+    color: #000000;
+}
+
+
+.billede4{
+    margin-left: 152px;
+    margin-top: -118px;
+    width: 150px;
+    height: 118px;
+}
+
+.cham-billede{
+    width: 150px;
+    height: 118px;
+}
+
+.pingvin{
+    margin-left: 302px;
+    margin-right: 152px;
+    margin-top: 10px;
+    width: 985px;
+    height: 118px;
+    background-color: #DBD9CD;
+}
+
+.pingvin p{
+    padding-left: 40px;
+    padding-top: 35px;
+    font-size: 18px;
+    color: #000000;
+    font-weight: 900;
+}
+
+.pingvin h6{
+    font-size: 22px;
+    padding-left: 40px;
+    color: #000000;
+}
+
+
+.billede5{
+    margin-left: 152px;
+    margin-top: -118px;
+    width: 150px;
+    height: 118px;
+}
+
+.pingvin-billede{
+    width: 150px;
+    height: 118px;
+}
+
+.lukket{
+    margin-left: 302px;
+    margin-right: 152px;
+    margin-top: 10px;
+    width: 985px;
+    height: 118px;
+    background-color: #DBD9CD;
+}
+
+.lukket p{
+    padding-left: 40px;
+    padding-top: 35px;
+    font-size: 18px;
+    color: #000000;
+    font-weight: 900;
+}
+
+.lukket h6{
+    font-size: 22px;
+    padding-left: 40px;
+    color: #000000;
+}
+
+
+.billede6{
+    margin-left: 152px;
+    margin-top: -118px;
+    width: 150px;
+    height: 118px;
+}
+
+.lukket-billede{
+    width: 150px;
+    height: 118px;
+}
+
+.nyhedsbrev{
+     margin-left: 150px;
+}
+
+
+/*Nyhedsbrev*/
+ 
+.streg-kontakt-mig{
+    width:275px;
+    height:3px;
+    background-color: #778899;
+    margin-top: 2px;
+    margin: auto;
+}
+ 
+input {
+    font-size: 16px;
+    width: 20%;
+    margin-top: -300px;
+   
+   
+}
+input[type=text] {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+input[type=text]:focus {
+    border: 3px solid #555;
+   
+   
+}
+ 
+#formular-1{
+    margin-left: 152px;
+}
+
+ 
+.indsend{
+    background-color: #A03431;
+    border: none;
+    color: #ffffff;
+    padding: 16px 32px;
+    margin: 4px 2px;
+    margin-left: 152px;
+   
+}
+
+
+/*oplevelser*/
+
+.main2{
+    background-color: #BFBCA9;
+    text-align: ;
+    color: white;
+    height: 2100px;
+    font-size: 24px;
+}
+
+
+
+.giraf{
+    margin-top: 40px;
+    width: 50px;
+    height: 130px;
+}
+
+
+.overnat{
+    margin-top: 60px;
+    width: 120px;
+    height: 120px;
+}
+
+
+.skole{
+    width: 100px;
+    height: 100px;
+    margin-top: 65px;
+}
+
+
+.bday{
+    width: 100px;
+    height: 100px;
+    margin-top: 65px;
+}
+
+.oplev{
+    height: 400px;
+    width: 560px;
+    margin-left: 730px;
+    font-size: 19.5px;
+    background-color: #DBD9CD;
+}
+
+.oplev p{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: #000000;
+}
+
+.oplev-billede{
+    height: 400px;
+    width: 400px;
+    margin-top: -400px;
+    margin-left: 152px;
+}
+
+.oplev-love{
+    height: 400px;
+    width: 577px;
+}
+
+.foelg-open{
+    margin-left: 152px;
+}
+
+.lukkedage{
+    margin-right: 152px;
+    margin-left: 152px;
+    font-size: 22px;
+}
+
+.for{
+    margin-left: 152px;
+    margin-right: 152px;
+    margin-top: ;
+    width: 1140px;
+    height: 250px;
+    background-color: #CDD9C5;
+    color: #000000;
+}
+
+.for h4{
+    padding-left: 50px;
+    padding-top: 25px;
+}
+
+.for p{
+    padding-left: 50px;
+    padding-right: 850px;
+    font-size: 19.5px;
+}
+
+.for1{
+    height: 220px;
+    margin-top: -235px;
+    margin-left: 473px;
+    float: left;
+    
+}
+
+.for2{
+    height: 220px;
+    margin-top: -235px;
+    margin-left: 747px;
+    float: left;
+    
+    
+}
+
+.for3{
+    height: 220px;
+    margin-top: -235px;
+    margin-left: 1018px;
+    float: left;
+    
+    
+}
+
+.sommer{
+   margin-left: 152px;
+    margin-right: 152px;
+    margin-top: 40px;
+    width: 1140px;
+    height: 250px;
+    background-color: #F2EFBB;
+    color: #000000;
+}
+
+
+
+.sommer h4{
+    padding-left: 50px;
+    padding-top: 25px;
+}
+
+.sommer p{
+    padding-left: 50px;
+    padding-right: 850px;
+    font-size: 19.5px;
+}
+
+.som1{
+    height: 220px;
+    margin-top: -235px;
+    margin-left: 473px;
+    float: left;
+    
+}
+
+.som2{
+    height: 220px;
+    margin-top: -235px;
+    margin-left: 747px;
+    float: left;
+    
+    
+}
+
+.som3{
+    height: 220px;
+    margin-top: -235px;
+    margin-left: 1018px;
+    float: left;
+    
+    
+}
+
+.efter{
+   margin-left: 152px;
+    margin-right: 152px;
+    margin-top: 40px;
+    width: 1140px;
+    height: 250px;
+    background-color: #F2D9BB;
+    color: #000000;
+}
+
+
+
+.efter h4{
+    padding-left: 50px;
+    padding-top: 25px;
+}
+
+.efter p{
+    padding-left: 50px;
+    padding-right: 850px;
+    font-size: 19.5px;
+}
+
+.efter1{
+    height: 220px;
+    margin-top: -235px;
+    margin-left: 473px;
+    float: left;
+    
+}
+
+.efter2{
+    height: 220px;
+    margin-top: -235px;
+    margin-left: 747px;
+    float: left;
+    
+    
+}
+
+.efter3{
+    height: 220px;
+    margin-top: -235px;
+    margin-left: 1018px;
+    float: left;
+}
+
+.vinter{
+   margin-left: 152px;
+    margin-right: 152px;
+    margin-top: 40px;
+    width: 1140px;
+    height: 250px;
+    background-color: #C9E7F2;
+    color: #000000;
+}
+
+
+
+.vinter h4{
+    padding-left: 50px;
+    padding-top: 25px;
+}
+
+.vinter p{
+    padding-left: 50px;
+    padding-right: 850px;
+    font-size: 19.5px;
+}
+
+.vinter1{
+    height: 220px;
+    margin-top: -235px;
+    margin-left: 473px;
+    float: left;
+    
+}
+
+.vinter2{
+    height: 220px;
+    margin-top: -235px;
+    margin-left: 747px;
+    float: left;
+    
+    
+}
+
+.vinter3{
+    height: 220px;
+    margin-top: -235px;
+    margin-left: 1018px;
+    float: left;
+}
+
+/*footer*/
+footer {
+    background-color: #2e2718;
+    padding: 10px;
+    color: white;
+    height: 300px;
+
+}
+
+.footer-1 p{
+    font-size: 21px;
+    margin-top: -119px;
+    margin-left: 412px;
+}
+
+.footer-1 h7{
+    font-size: 28px;
+    margin-left: 412px;
+    font-weight: 900;
+}
+
+.logo-footer{
+    height: 112px;
+    width: 250px;
+    margin-left: 152px;
+    margin-top: 100px;
+}
+
+.streg{
+    height: 3px;
+    width: 1125px;
+    margin-left: 152px;
+    margin-right: 152px;
+    margin-top: 10px;
+    background-color: #675B41;
+    
+}
+
+.div-fyens{
+    height: 30px;
+    width: 264px;
+    margin-left: 501px;
+    margin-top: 10px;
+}
+
+.fyens{
+    height: 30px;
+    margin-top: ;
+}
+
+.div-euro{
+    height: 50px;
+    width: 70px;
+    margin-left: 775px;
+    margin-top: -30px;
+}
+
+.euro{
+    margin-left: ;
+    height: 50px;
+}
+
+.div-waza{
+    height: 48px;
+    width: 135px;
+    margin-left: 855px;
+    margin-top: -50px;
+}
+
+.waza{
+    margin-left: 10px;
+    height: 48px;
+}
+
+.div-rgb{
+    height: 48px;
+    width: 70px;
+    margin-left: 1000px;
+    margin-top: -48px;
+}
+
+.rgb{
+    margin-left: 10px;
+    height: 48px;
+}
+
+.div-topattraktion{
+    height: 48px;
+    width: 196px;
+    margin-left: 1080px;
+    margin-top: -48px;
+}
+
+.topattraktion{
+    height: 48px;
+}
+
