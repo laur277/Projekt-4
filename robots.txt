@@ -1,0 +1,4 @@
+User-agent: Googlebot
+Disallow:
+
+sitmap: http://zoo.laurad.dk/sitemap.xml

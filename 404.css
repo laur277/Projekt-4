@@ -1,0 +1,171 @@
+* {
+   
+    margin: 0px;
+    padding: 0px;
+}
+ 
+body {
+    font-family: "pt sans", sans-serif;
+    color: #ffffff;
+    background-color: #BFBCA9;
+}
+ 
+/*navigationsbar*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #A03431;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+   
+}
+ 
+li.tab {
+    float: right;
+    margin-right:25px;
+   
+}
+ 
+ li.tab a {
+    display: block;
+    color: white;
+    padding: 32px 34px;
+    text-decoration: none;
+}
+ 
+li.tab a:hover {
+    color: #ffffff;
+    background-color: #902E2B;
+}
+ 
+li.navlogo {
+    float: left;
+    margin-left:5%;
+}
+ 
+ 
+#logo{
+    float: left;
+    width: 120px;
+    margin-left: 80px;
+    margin-top: 6%;
+}
+ 
+#main{
+    background-color: #BFBCA9;
+    text-align: ;
+    color: white;
+    height: 625px;
+    font-size: 24px;
+}
+
+.cases-links{
+    text-align: center;
+    margin-top: 150px;
+
+}
+
+/*footer*/
+footer {
+    background-color: #2e2718;
+    padding: 10px;
+    color: white;
+    height: 300px;
+
+}
+
+.footer-1 p{
+    font-size: 21px;
+    margin-top: -119px;
+    margin-left: 412px;
+}
+
+.footer-1 h3{
+    font-size: 28px;
+    margin-left: 412px;
+    font-weight: 900;
+}
+
+.logo-footer{
+    height: 112px;
+    width: 250px;
+    margin-left: 152px;
+    margin-top: 100px;
+}
+
+.streg{
+    height: 3px;
+    width: 1125px;
+    margin-left: 152px;
+    margin-right: 152px;
+    margin-top: 10px;
+    background-color: #675B41;
+    
+}
+
+.div-fyens{
+    height: 30px;
+    width: 264px;
+    margin-left: 501px;
+    margin-top: 10px;
+}
+
+.fyens{
+    height: 30px;
+    margin-top: ;
+}
+
+.div-euro{
+    height: 50px;
+    width: 70px;
+    margin-left: 775px;
+    margin-top: -30px;
+}
+
+.euro{
+    margin-left: ;
+    height: 50px;
+}
+
+.div-waza{
+    height: 48px;
+    width: 135px;
+    margin-left: 855px;
+    margin-top: -50px;
+}
+
+.waza{
+    margin-left: 10px;
+    height: 48px;
+}
+
+.div-rgb{
+    height: 48px;
+    width: 70px;
+    margin-left: 1000px;
+    margin-top: -48px;
+}
+
+.rgb{
+    margin-left: 10px;
+    height: 48px;
+}
+
+.div-topattraktion{
+    height: 48px;
+    width: 196px;
+    margin-left: 1080px;
+    margin-top: -48px;
+}
+
+.topattraktion{
+    height: 48px;
+}
